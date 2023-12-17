@@ -1,4 +1,5 @@
 
+
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +20,7 @@
     margin: 0 auto;
 }
 .top-bar{
-    padding-left: 330px;
+    padding-left: 230px;
     padding-top: 1%;
     font-size :25px; 
    display: flex;
@@ -44,7 +45,7 @@ a{
     background-color: black;
     height: 55px;
     color: black;
-    padding-left :315px;
+    padding-left :217px;
 }
 
 .logo-text{
@@ -60,7 +61,7 @@ h2{
 }
 
 .nav-items{
-    margin-left: 300px;
+    margin-left: 328px;
     display: flex;
     gap: 2.5rem;
     padding: 4em;
@@ -108,52 +109,54 @@ h2{
  .content {
     align-items: center;
     text-align: justify;
-    padding-left: 310px;
+    padding-left: 220px;
    padding-top: 150px;
-    padding-right: 240px;
+    padding-right: 350px;
     font-size: 20px;
-   
+   justify-content: center;
+   align-items: center;
 
  }
 
+
  @media( max-width:700px ){
-    .top-bar{
-        padding-left: 15px;
-        font-size :20px; 
+   .top-bar{
+       padding-left: 15px;
+       font-size :20px; 
+      display: flex;
+      height: 60px;
+   background-image: linear-gradient(to right,rgb(239, 185, 23) 2%,rgb(255, 0, 115) 50%);
+   color: whitesmoke;
+   gap: 3px;
+   justify-content: center;
+   }
+   .phone{
+       cursor: pointer;
        display: flex;
+       margin-left: 70px;
+   
+   }
+   .navbar{
+       border: 2px solid silver;
+       background-color: black;
        height: 60px;
-    background-image: linear-gradient(to right,rgb(239, 185, 23) 2%,rgb(255, 0, 115) 50%);
-    color: whitesmoke;
-    gap: 3px;
-    justify-content: center;
-    }
-    .phone{
-        cursor: pointer;
-        display: flex;
-        margin-left: 70px;
-    
-    }
-    .navbar{
-        border: 2px solid silver;
-        background-color: black;
-        height: 60px;
-        color: black;
-        padding-left: 15px;
+       color: black;
+       padding-left: 15px;
 align-content: center;
-        justify-content: center;
-    }
-    
+       justify-content: center;
+   }
+   
 .nav-items{
 padding-left: 1px;
 margin-left: 5px;
-    display: flex;
-    gap: 5px;
-    padding: 4em;
+   display: flex;
+   gap: 5px;
+   padding: 4em;
 
-    
- }
- .logo-text{
-    display: flex;
+   
+}
+.logo-text{
+   display: flex;
 font-size: 10px;
 font-style: double;
 color: black;
@@ -161,138 +164,129 @@ padding-left: 15px;
 
 } 
 .nav-items div{
-    margin-top: -100px;
-    font-size: 13px;
-    cursor: pointer;
-    
+   margin-top: -100px;
+   font-size: 13px;
+   cursor: pointer;
+   
 
- }
- h2{
-    font-size: 15px;
-    
- }
- #search-outline{
-    margin-top: -20%;
-    background-color: rgb(255, 150, 12);
-    height: 55px;
-    width: 30px;
-    display: flex;
-    padding-top: 10px;
-    border: 1px solid silver;  
+}
+h2{
+   font-size: 15px; 
+}
 
- }
 
- .box{
-    margin-left: 0%;
-    height: 400px;
-    width: 100%;
-    padding: 20px;
-    border:1px solid black;
-    
- }
- .content {
-   align-items: center;
-   text-align: justify;
-   padding-left: 5px;
-  padding-top: 150px;
-   padding-right: 20px;
-   font-size: 12px;
-  
+.box{
+   margin-left: 0%;
+   height: 400px;
+   width: 100%;
+   padding: 20px;
+   border:1px solid black;
+   
+}
+.content {
+  align-items: center;
+  text-align: justify;
+  padding-left: 5px;
+ padding-top: 150px;
+  padding-right: 20px;
+  font-size: 12px;
+ 
+}
+#search-outline{
+   display: block;
+   padding-top: 200px;
+   background-color: rgb(255, 150, 12);
+   height: 55px;
+   width: 20px;
+   border: 1px solid silver;  
+
+}
+.next-box{
+  height: 180px;
+  background-image: linear-gradient(to right,rgb(239, 185, 23) 3%,rgb(255, 0, 115) 50%);
+  width: 100%;
+  padding-top: 50px;
+  padding-left: 5px;
+  font-size: 12px;
+  color: white;
+  padding-right: 5px;
+
 }
 
 .next-box{
-   height: 180px;
-   background-image: linear-gradient(to right,rgb(239, 185, 23) 3%,rgb(255, 0, 115) 50%);
-   width: 100%;
-   padding-top: 50px;
-   padding-left: 5px;
-   font-size: 12px;
-   color: white;
-   padding-right: 5px;
-
-}
-
-.next-box{
-   height: 280px;
-   background-image: linear-gradient(to right,rgb(239, 185, 23) 3%,rgb(255, 0, 115) 50%);
-   width: 100%;
-   padding-top: 50px;
-   padding-left: 5px;
-   font-size: 7px;
-   color: white;
-   padding-right: 5px;
+  height: 280px;
+  background-image: linear-gradient(to right,rgb(239, 185, 23) 3%,rgb(255, 0, 115) 50%);
+  width: 100%;
+  padding-top: 50px;
+  padding-left: 5px;
+  font-size: 7px;
+  color: white;
+  padding-right: 5px;
 
 
 }
 
 .para1{
 padding-left: -100px;
-   max-width: 100px;
-   color: white;
-   font-size: 7px;
-   text-align: justify;
+  max-width: 100px;
+  color: white;
+  font-size: 7px;
+  text-align: justify;
 
-  
+ 
 }
 .para2{
 
-   margin-left: 10px;
-   max-width:100px;
-   color: white;
-   text-align: justify;
-   font-size: 7px;
+  margin-left: 10px;
+  max-width:100px;
+  color: white;
+  text-align: justify;
+  font-size: 7px;
 }
 
 .para3{
 
-   max-width: 100px;
-  margin-left: 200px;
-   color: white;
-   font-size: 7px;
-   padding: 40px;
-   
+  max-width: 100px;
+ margin-left: 200px;
+  color: white;
+  font-size: 7px;
+  padding: 40px;
   
+ 
 }
 
 .lower-box{
-  padding-top: 60px;
-  height: 700px;
-  width: 100%;
-  background-color: white;
-  padding-left:-60px;
-  color: black;
-  font-size: 10px;
-  padding-right: 10px;
-  text-align: justify;
+ padding-top: 60px;
+ height: 700px;
+ width: 100%;
+ background-color: white;
+ padding-left:-60px;
+ color: black;
+ font-size: 10px;
+ padding-right: 10px;
+ text-align: justify;
 }
 .bg{
-  margin-top: -700px;
-  margin-left: 60px;
-  width: 450px;
-  border-radius: 50%;
-  border-bottom: 3px solid rgb(255, 0, 85);
+ margin-top: -700px;
+ margin-left: 60px;
+ width: 450px;
+ border-radius: 50%;
+ border-bottom: 3px solid rgb(255, 0, 85);
 }
 #img1 #img2{
-   max-height: 150px;
-   width: 300px;
+  max-height: 150px;
+  width: 300px;
 }
 
 #footer{
-  height: 900px;
-  background-color: silver;
-  padding: 20px;
-  padding-left: 5px;
-}
+ height: 900px;
+ background-color: silver;
+ padding: 20px;
+ padding-left: 5px
+
+}}
 
 
-
-
-
-
-
-
-
-}
 
 
 .btn-pink{
@@ -340,7 +334,7 @@ z-index: 1;
     background-image: linear-gradient(to right,rgb(239, 185, 23) 3%,rgb(255, 0, 115) 50%);
     width: 100%;
     padding-top: 50px;
-    padding-left: 330px;
+    padding-left: 230px;
     font-size: 20px;
     color: white;
     padding-right: 210px;
@@ -382,7 +376,7 @@ z-index: 1;
    height: 700px;
    width: 100%;
    background-color: white;
-   padding-left: 330px;
+   padding-left: 230px;
    color: black;
    font-size: 20px;
    padding-right: 800px;
@@ -401,12 +395,13 @@ z-index: 1;
    height: 370px;
    background-color: silver;
    padding: 20px;
-   padding-left: 330px;
+   padding-left: 230px;
 }
 #text{
    text-decoration: underline;
    text-decoration-color: rgb(255, 0, 85);
 }
+
 
 
 
