@@ -20,7 +20,7 @@
     margin: 0 auto;
 }
 .top-bar{
-    padding-left: 230px;
+    padding-left: 200px;
     padding-top: 1%;
     font-size :25px; 
    display: flex;
@@ -45,7 +45,7 @@ a{
     background-color: black;
     height: 55px;
     color: black;
-    padding-left :217px;
+    padding-left :190px;
 }
 
 .logo-text{
@@ -61,7 +61,7 @@ h2{
 }
 
 .nav-items{
-    margin-left: 328px;
+    margin-left: 300px;
     display: flex;
     gap: 2.5rem;
     padding: 4em;
@@ -109,7 +109,7 @@ h2{
  .content {
     align-items: center;
     text-align: justify;
-    padding-left: 220px;
+    padding-left: 200px;
    padding-top: 150px;
     padding-right: 350px;
     font-size: 20px;
@@ -334,7 +334,7 @@ z-index: 1;
     background-image: linear-gradient(to right,rgb(239, 185, 23) 3%,rgb(255, 0, 115) 50%);
     width: 100%;
     padding-top: 50px;
-    padding-left: 230px;
+    padding-left: 200px;
     font-size: 20px;
     color: white;
     padding-right: 210px;
@@ -376,7 +376,7 @@ z-index: 1;
    height: 700px;
    width: 100%;
    background-color: white;
-   padding-left: 230px;
+   padding-left: 200px;
    color: black;
    font-size: 20px;
    padding-right: 800px;
@@ -395,7 +395,7 @@ z-index: 1;
    height: 370px;
    background-color: silver;
    padding: 20px;
-   padding-left: 230px;
+   padding-left: 200px;
 }
 #text{
    text-decoration: underline;
