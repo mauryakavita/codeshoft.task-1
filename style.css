@@ -45,7 +45,7 @@ a{
     background-color: black;
     height: 55px;
     color: black;
-    padding-left :190px;
+    padding-left :200px;
 }
 
 .logo-text{
@@ -346,7 +346,7 @@ z-index: 1;
 
     max-width: 300px;
     color: white;
-    font-size: 21px;
+    font-size: 20px;
     text-align: justify;
 
    
@@ -357,7 +357,7 @@ z-index: 1;
     max-width:300px;
     color: white;
     text-align: justify;
-    font-size: 21px;
+    font-size: 20px;
  }
 
  .para3{
@@ -365,7 +365,7 @@ z-index: 1;
     max-width: 300px;
    margin-left: 65px;
     color: white;
-    font-size: 21px;
+    font-size: 20px;
     padding: 40px;
     
    
